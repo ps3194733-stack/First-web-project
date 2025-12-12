@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Eventsphere - Login</title> <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Login</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="booking.html">Book Now</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 style="text-align:center;"> User</h2>
+        
+        <form id="loginForm" onsubmit="return validateForm()">
+            <label>Username:</label>
+            <input type="text" id="username" placeholder="Username">
+
+            <label>Password:</label>
+            <input type="password" id="password" placeholder="Password">
+
+            <button type="submit">sign in</button>
+            <p id="errorMsg" style="color:red; text-align:center;"></p>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; Made with <span   id="heart">♥</span> by Prabhat</p> </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
